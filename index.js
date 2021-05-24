@@ -80,3 +80,4 @@
 // Where to use VAR?
 //Example 1
 
+// comment
