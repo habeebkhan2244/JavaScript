@@ -8,18 +8,54 @@
     <title>Javascript embedded into the HTML </title>
 </head>
 <body>
-    <button onclick="document.getElementById('myImage').src='../images/pic_bulbon.gif'">Turn on the light</button>
-
-    <img id="myImage" src=" ../images/pic_bulboff.gif"style="width:100px">
-    
-    <button onclick="document.getElementById('myImage').src='../images/pic_bulboff.gif'">Turn off the light</button>
-    
 
 
+<p id = "demo"> JavaScript can change the style of an HTML element.</p>
+
+<button type = "button"  onclick="document.getElementById('demo').style.fontSize= '50px'">click Here</button>
+<br>
 
 
-    
-    
+<br>
+<p id="khan"> See what JavaScript can do with HTML</p>
+
+<button type="button" onclick="document.getElementById('khan').innerHTML = 'Hello JavaScript!' ">Click Here</button>
+<br>
+
+
+<br>
+
+<p id = "cat"> This text will be gone after you click there .</p>
+
+<button type="button" onclick="document.getElementById('cat').style.display ='none'">click here</button>
+<br>
+
+<br>
+
+<p id ="man" style="display:none">Hello JavaScript</p>
+
+
+<button type="button" onclick="document.getElementById('man').style.display='block'">Click Here</button>
+
+<!-- <script>
+alert(5+6)</script> -->
+<br>
+<button onclick="window.print()">Print this current page</button>
+
+ <p id="demo6">this is going to change </p>
+<button  onclick="document.getElementById('demo6').innerHTML=Date()">The time is ?</button>
+
+<button type="button" onclick="document.getElementById('demo').innerHTML = Date()">click for time</button>
+
+<p id ="demo3" >Hello World!</p>
+
+<button onclick="myFunction()">Try it </button>
+
+
+<div 
+onmouseover
+="this.style.backgroundColor='gold'">myDIV.</div>
    <script src="index.js"></script>
 </body>
 </html>
+
