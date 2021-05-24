@@ -80,25 +80,3 @@
 // Where to use VAR?
 //Example 1
 
-var person = {
-    name: "Bob",
-    age: 25
-};
-
-function updatePerso(person) {
-    var updatedPerso = {};
-    
-    
-    if (person.name) {
-        updatedPerso.name = person.name;
-    }
-        updatedPerso.updateAt = new Date();
-
-        return updatedPerso;
-    
-
-    }
-    
-    console.log(updatePerso(person));
-
-
